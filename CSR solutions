@@ -1,0 +1,6 @@
+!cd flask-api-render && git init
+!cd flask-api-render && git add .
+!cd flask-api-render && git commit -m "Deploy Flask API to Render"
+!cd flask-api-render && git branch -M main
+!cd flask-api-render && git remote add origin https://github.com/DIN_GITHUB_BRUGERNAVN/DIN_GITHUB_REPO.git
+!cd flask-api-render && git push -u origin main
